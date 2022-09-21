@@ -10,7 +10,17 @@
 </head>
 <body>
     <h1 class="title">Snack 1</h1>
-
+    <?php
+    $numbers = [];
+    while ( count($numbers) != 15 ) {
+        $number = rand(0, 100);
+        if ( !in_array($number, $numbers) )
+            $numbers[] = $number;
+    }
+    ?>
+    <p>
+        <?= implode(', ', $numbers) ?>
+    </p>
     <a href="../index.html">Home</a>
 </body>
 </html>
