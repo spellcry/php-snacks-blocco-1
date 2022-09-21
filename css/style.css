@@ -1,3 +1,21 @@
 .title {
     text-align: center;
 }
+
+.content {
+    display: flex;
+}
+
+.teachers,
+.pm {
+    flex-basis: 50%;
+}
+
+.teachers {
+    background-color: darkgrey;
+}
+
+.pm {
+    background-color: green;
+    color: lightgray;
+}
