@@ -35,6 +35,7 @@
         }
         ?>
     </div>
+    <br>
     <a href="../index.html">Home</a>
 </body>
 </html>
